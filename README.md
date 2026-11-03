@@ -1,8 +1,8 @@
 # BREADTH-FIRST-SEARCH
 <h1>ExpNo 3 : Implement Breadth First Search Traversal of a Graph</h1> 
-<h3>Date: 15/10/2026<h3>
-<h3>Name: Angelin gracy R </h3>
-<h3>Register Number: 212225240009</h3>
+<h3>Date: 20/10/2026 <h3>
+<h3>Name: Pravish j </h3>
+<h3>Register Number: 212224040249</h3>
 <H3>Aim:</H3>
 <p>To Implement Breadth First Search Traversal of a Graph using Python 3.</p>
 <h3>Theory:</h3>
@@ -49,27 +49,7 @@ As we can see that every neighbours of node 3 is visited, so move to the next no
 
 Steps 7: Remove node 4 from the front of queue and visit the unvisited neighbours and push them into queue. 
 As we can see that every neighbours of node 4 are visited, so move to the next node that is in the front of the queue.
-
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/8e16ffa3-c3d6-4774-822b-6eb84adedad9)
-
-Remove node 4 from the front of queue and visit the unvisited neighbours and push them into queue.
-Now, Queue becomes empty, So, terminate these process of iteration.
-
-
-<hr>
-<h2>Algorithm:</h2>
-<hr>
-<ol>
-  <li>Construct a Graph with Nodes and Edges</li>
- <li>Breadth First Uses Queue and iterates through the Queue for Traversal.</li>
-  <li>Insert a Start Node into the Queue.</li>
-<li>Find its Successors Or neighbors and Check whether the node is visited or not.</li>
-<li>If Not Visited, add it to the Queue. Else Continue.</li>
-<li>Iterate steps 4 and 5 until all nodes get visited, and there are no more unvisited nodes.</li>
-
-</ol>
-
-<hr>
+G F <BR>
 <h3>Sample Input</h3>
 <hr>
 7 9 <BR>
@@ -82,6 +62,8 @@ C D <BR>
 D E <BR>
 D G <BR>
 G F <BR>
+<hr>
+
 <hr>
 <h3>Sample Output</h3>
 <hr>
@@ -104,7 +86,6 @@ G F <BR>
 <hr>
 ['0', '1', '2', '3', '4']
 <hr>
-
 ## Program: 
 
 ```
@@ -164,10 +145,5 @@ else:
 <h3>Result:</h3>
 <hr>
 <p>Thus,a Graph was constructed and implementation of Breadth First Search for the same graph was done successfully.</p>
-
-
-
-
-
 
 
